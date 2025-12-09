@@ -4,12 +4,12 @@ Unsupervised Clustering of Spotify Songs
 
 This project applies unsupervised machine learning to discover hidden categories of music using numeric audio features provided by the Spotify Web API. Unlike typical music classification tasks, the dataset does not contain labels such as genre or mood. All clusters are learned only from audio attributes, making this a fully unsupervised problem.
 
-Project Overview
+## Project Overview
 
-Goal:
+## Goal:
 To determine whether meaningful music categories can be identified using only machine-generated Spotify audio features.
 
-Methods Used:
+## Methods Used:
 
 Exploratory Data Analysis (EDA)
 
@@ -23,17 +23,17 @@ Cluster Interpretation with Centroid Analysis
 
 Dataset
 
-Source: Kaggle — Spotify Song Attributes
+## Source: Kaggle — Spotify Song Attributes
 
 Features extracted from Spotify’s Web API
 
 Only numeric acoustic features were used (no genre, no text metadata)
 
-Selected Attributes:
+## Selected Attributes:
 danceability, energy, loudness, speechiness,
 acousticness, instrumentalness, liveness, valence, tempo
 
-Findings
+## Findings
 
 The model produced three clear music groups:
 
